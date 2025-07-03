@@ -42,6 +42,7 @@ Originally designed for a physics experiment to measure gravitational accelerati
 ---
 ## 🤝 Credits
 Developed and assembled by Dragostin Ivanov, with hardware help from my father
+
 Inspired by a school project and driven by a passion for learning and sharing science
 
 ---
