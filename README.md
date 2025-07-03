@@ -46,6 +46,5 @@ Developed and assembled by Dragostin Ivanov, with hardware help from my father
 Inspired by a school project and driven by a passion for learning and sharing science
 --
 ## 📷 Gallery
+Sharky in development:
 <img src="docs/sharkyInDevelopment.jpg" width="400" />
-
-![Sharky in development](docs/sharkyInDevelopment.jpg)
