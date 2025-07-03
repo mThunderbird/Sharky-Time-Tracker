@@ -29,7 +29,7 @@ Built together with my father, this device later evolved into an educational too
 
 🎛️ Two-pin input system for flexible triggering
 
-🔄 Three programmable modes for different timing behaviors
+🔄 Three programmable modes for different timing behaviours
 
 ---
 ## 🎯 Use Case & Real-World Application
@@ -46,4 +46,6 @@ Developed and assembled by Dragostin Ivanov, with hardware help from my father
 Inspired by a school project and driven by a passion for learning and sharing science
 --
 ## 📷 Gallery
+<img src="docs/sharkyInDevelopment.jpg" width="400" />
+
 ![Sharky in development](docs/sharkyInDevelopment.jpg)
