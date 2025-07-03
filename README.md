@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a0e1d858-c796-4cab-9432-52869d2a0007)# Sharky Time Tracker ⏱️
+# Sharky Time Tracker ⏱️
 
 A lightweight Arduino-powered device for measuring precise time intervals between trigger events — originally created to help calculate Earth's gravitational acceleration through a high school experiment.
 
