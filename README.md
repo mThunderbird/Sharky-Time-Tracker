@@ -17,7 +17,7 @@ used the setup to demonstrate the concepts to younger students.
 
 | In progress | Finished setup |
 |:----------------------:|:--------------------:|
-| ![inProgress](docs/sharkyInDevelopment.jpg) | ![finishedSetup](docs/setup.jpg) |
+|<img src="docs/sharkyInDevelopment.jpg" alt="In Progress" width="200"/> | ![finishedSetup](docs/setup.jpg) |
 
 ## ⚙️ Tech stack
 - Arduino
