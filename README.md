@@ -17,14 +17,14 @@ used the setup to demonstrate the concepts to younger students.
 
 | In progress | Finished setup |
 |:----------------------:|:--------------------:|
-| ![Menu](docs/sharkyInDevelopment.jpg) | ![Gameplay](docs/setup.png) |
+| ![inProgress](docs/sharkyInDevelopment.jpg) | ![finishedSetup](docs/setup.jpg) |
 
 ## ⚙️ Tech stack
 - Arduino
 - C for software
 
 ## ⭐ Features
-- 2-pin input system for flexible triggering. Independent of the actual type of trigger. In this setup, we used a photocell for 1 part of the experiment, and a simple pushing pin for the other.
+- 2-pin input system for flexible triggering. Independent of the actual type of trigger. In this setup, we used a photocell for one part of the experiment, and a simple pushing pin for the other.
 - Real-time LCD for information on how time is going
 - 3 triggering modes for extra flexibility:
  ```c
