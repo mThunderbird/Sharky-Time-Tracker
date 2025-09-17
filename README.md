@@ -1,46 +1,35 @@
-# Sharky Time Tracker ⏱️
+# Sharky time tracker
 
-A lightweight Arduino-powered device for measuring precise time intervals between trigger events — originally created to help calculate Earth's gravitational acceleration through a high school experiment.
+A lightweight Arduino-powered device for measuring precise time intervals between trigger events — 
+created to help calculate Earth's gravitational acceleration for a high school experiment.
 
----
 
-## 📦 Project Overview
+The tracker uses physical pin signals (*FIRE events*) to start, stop, or measure time. It features a simple UI on an LCD screen and is powered by a custom-assembled Arduino setup.
 
-**Sharky Time Tracker** uses physical pin signals (*FIRE events*) to start, stop, or measure time. It features a simple UI on an LCD screen and is powered by a custom-assembled Arduino setup.
 
-Built together with my father, this device later evolved into an educational tool now used by physics teachers to demonstrate motion, time, and gravity concepts to younger students.
+This repository contains the code for the machine; the hardware was also created by me with the help of my father.
 
----
 
-## 🧠 Mode Logic
+This device was created for a school experiment. I donated it to the school, and my physics teacher
+used the setup to demonstrate the concepts to younger students.
 
-```c
+## 📸 Screenshots
+
+| In progress | Finished setup |
+|:----------------------:|:--------------------:|
+| ![Menu](docs/sharkyInDevelopment.jpg) | ![Gameplay](docs/setup.png) |
+
+## ⚙️ Tech stack
+- Arduino
+- C for software
+
+## ⭐ Features
+- 2-pin input system for flexible triggering. Independent of the actual type of trigger. In this setup, we used a photocell for 1 part of the experiment, and a simple pushing pin for the other.
+- Real-time LCD for information on how time is going
+- 3 triggering modes for extra flexibility:
+ ```c
 #define MODE1 1  // 1st FIRE event starts timer, 2nd FIRE event stops it
 #define MODE2 2  // 1st FIRE event starts timer, all subsequent FIREs calculate time since start
 #define MODE3 3  // 1st FIRE starts timer, all subsequent FIREs calculate lap time since last FIRE
 ```
-🔥 A FIRE event is a signal triggered via physical pin activation — e.g., a button press or sensor pulse.
 
----
-## 🛠️ Hardware & Features
-🔌 Arduino microcontroller
-
-📺 LCD display for real-time timer feedback
-
-🎛️ Two-pin input system for flexible triggering
-
-🔄 Three programmable modes for different timing behaviours
-
----
-## 🎯 Use Case & Real-World Application
-Originally designed for a physics experiment to measure gravitational acceleration, the device was later:
-
-💡 Donated to my school’s physics lab
-
-👨‍🏫 Used by teachers to demonstrate physics concepts to 8th and 9th graders
-
----
-## 📷 Gallery
-<img src="docs/sharkyInDevelopment.jpg" width="400" />
-
-Sharky in development
