@@ -13,16 +13,19 @@ This repository contains the code for the machine; the hardware was also created
 This device was created for a school experiment. I donated it to the school, and my physics teacher
 used the setup to demonstrate the concepts to younger students.
 
+---
 ## 📸 Screenshots
 
 | In progress | Finished setup |
 |:----------------------:|:--------------------:|
-|<img src="docs/sharkyInDevelopment.jpg" alt="In Progress" width="500"/> | ![finishedSetup](docs/setup.jpg) |
+|<img src="docs/sharkyInDevelopment.jpg" alt="In Progress" width="500"/> | <img src="docs/setup.jpg" alt="The setup" height="400"/> |
 
+---
 ## ⚙️ Tech stack
 - Arduino
 - C for software
 
+---
 ## ⭐ Features
 - 2-pin input system for flexible triggering. Independent of the actual type of trigger. In this setup, we used a photocell for one part of the experiment, and a simple pushing pin for the other.
 - Real-time LCD for information on how time is going
